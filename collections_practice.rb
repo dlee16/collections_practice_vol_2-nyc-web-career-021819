@@ -5,3 +5,5 @@ end
 def contain_a(array)
   array.select {|word| word.include?("a")}
 end
+
+def 
