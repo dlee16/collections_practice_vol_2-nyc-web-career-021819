@@ -18,8 +18,7 @@ def count_elements(array)
   counts =Hash.new(0)
   array.collect {|word| counts[word] +=1}
   counts.collect {|hash,number| hash[:count] = number}
-end
-counts.keys
+  counts.keys
 end
 
 def merge_data
