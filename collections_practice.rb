@@ -17,7 +17,7 @@ end
 def count_elements(array)
   counts =Hash.new(0)
   array.collect {|word| counts[word] +=1}
-  
+  count
 end
 
 def merge_data
