@@ -6,4 +6,6 @@ def contain_a(array)
   array.select {|word| word.include?("a")}
 end
 
-def 
+def first_wa(array)
+  array.find {|word| word.to_s.include?("wa")}
+end
