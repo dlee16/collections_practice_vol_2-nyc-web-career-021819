@@ -31,7 +31,7 @@ end
 
 def organize_schools(schools)
   locations ={}
-  hash.values.each {|place| locations[place.values[0]]= []}
-  hash.each {|school, place| locations[place.values[0]]<< school}
+  hash.values.each {|place| locations[place.value[0]]= []}
+  hash.each {|school, place| locations[place.value[0]]<< school}
   locations
 end
