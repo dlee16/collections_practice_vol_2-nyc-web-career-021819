@@ -20,8 +20,11 @@ def count_elements(array)
   
 end
 
-merge_data
+def merge_data
+end
 
-find_cool
+def find_cool
+end
 
-organize_schools
+def organize_schools
+end
