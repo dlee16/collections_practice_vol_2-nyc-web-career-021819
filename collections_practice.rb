@@ -22,7 +22,7 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
- keys.each {|key_value| data.each {|hash| name_hash.merge!(hash[name_hash[:first_name]])}}
+ keys.each {|key_value| data.each {|hash| key_value.merge!(hash[key_value[:first_name]])}}
 end
 
 def find_cool
