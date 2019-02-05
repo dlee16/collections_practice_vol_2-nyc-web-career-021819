@@ -15,7 +15,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array
+  counts =Hash.new(0)
+  
 end
 
 merge_data
