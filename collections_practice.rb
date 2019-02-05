@@ -19,3 +19,5 @@ def count_elements(array)
 end
 
 merge_data
+
+find_cool
