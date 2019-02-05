@@ -26,7 +26,8 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  array.select {|word| word.
+  array.select {|word| word.include?("cool")}
+  array
 end
 
 def organize_schools
