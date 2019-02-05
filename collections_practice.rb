@@ -26,7 +26,7 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  array.select
+  array.select {
 end
 
 def organize_schools
