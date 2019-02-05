@@ -26,7 +26,7 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  array.select {|word| if word == "cool")}
+  array.select {|word| word. == "cool")}
   array
 end
 
