@@ -25,7 +25,7 @@ def merge_data(keys,data)
  keys.each {|key_value| data.each {|hash| key_value.merge!(hash[key_value[:first_name]])}}
 end
 
-def find_cool(hash)
+def find_cool(array)
   
 end
 
