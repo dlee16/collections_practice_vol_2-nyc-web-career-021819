@@ -22,7 +22,7 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
- keys.each {|name_hash| data.each {|hash| name_hash.merge!(hash[name_hash]))}}
+ keys.each {|name_hash| data.each {|hash| name_hash.merge!(hash[name_hash:first_name]))}}
  
 end
 
