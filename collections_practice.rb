@@ -31,5 +31,5 @@ end
 
 def organize_schools(schools)
   locations ={}
-  hash.values.each
+  hash.values.each {|
 end
