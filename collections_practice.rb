@@ -22,7 +22,8 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
-  
+  counts = Hash.new(0)
+  keys.collect {|word| 
 end
 
 def find_cool
