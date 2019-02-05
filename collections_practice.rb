@@ -21,3 +21,5 @@ end
 merge_data
 
 find_cool
+
+organize_schools
